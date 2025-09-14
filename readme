@@ -1,0 +1,102 @@
+#  PranaEdge
+
+**PranaEdge** is a comprehensive web platform designed to enhance your well-being through health, mindfulness, and AI-powered yoga assistance.  
+It combines modern technology with traditional wisdom to support your wellness journey.
+
+---
+
+## 🚀 Features
+
+### 🧘 Yoga Pose AI
+- Real-time **pose detection and correction** using [MediaPipe](https://google.github.io/mediapipe/).
+- AI-powered classification model trained on images and videos of yoga poses.
+- Hybrid feature extraction: raw landmarks (x, y, z, visibility) + calculated joint angles.
+- Feedback system provides:
+  - **Intro guidance** (step-by-step instructions when entering a pose).  
+  - **Live corrections** with tolerance for natural variation.  
+  - **Encouragement** when the pose is correct.  
+- Voice-enabled responses for a hands-free experience.
+
+### 🧘‍♂️ Meditation
+- Guided meditations and breathing exercises.  
+- Focus on mindfulness and stress relief.  
+
+### 😴 Sleep Tracker
+- Monitor sleep patterns.  
+- Personalized recommendations for improving rest.  
+
+### 🥗 Diet Tracker
+- Track meals, calories, and macronutrients.  
+- Balance your nutrition with personalized suggestions.  
+
+### 🍎 Nutrition Guide
+- Tailored nutrition recommendations based on your health profile.  
+
+### 📊 Health Status
+- Monitor health metrics (weight, activity, sleep).  
+- Get actionable insights on your overall wellness.  
+
+### 📖 Vedic Philosophy
+- Learn traditional practices and philosophy for a balanced lifestyle.  
+
+### 🎥 Live Classes
+- Join interactive yoga and meditation sessions in real time.  
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, TailwindCSS  
+- **Backend**: Flask / Node.js (depending on version)  
+- **AI/ML**: TensorFlow, Keras, MediaPipe, OpenCV  
+- **Database**: MongoDB Atlas  
+- **Authentication**: JWT-based secure login/signup  
+- **Payments**: Razorpay integration (for premium features)  
+
+---
+
+## 📊 Model Training
+
+- Uses Mediapipe to extract **33 body landmarks** per frame.  
+- Each landmark has `(x, y, z, visibility)` → 132 values.  
+- Added **joint angles** for arms, legs, and torso → improved accuracy.  
+- **Hybrid feature vector** = `[landmarks + angles]`.  
+- Model trained on:
+  - 10+ long yoga videos (sampled every few frames).  
+  - 60+ high-quality reference images.  
+  - Classes: `"treepose"` and `"not treepose"` (extendable to more poses).  
+
+### Training Results
+- Accuracy: ~99.7% (validation + test).  
+- Loss: <0.01 after 50 epochs.  
+- Works well on both high-quality and standard webcam images.  
+
+---
+
+## 🔊 Feedback Flow
+
+1. **Frontend** captures webcam frame → sends as Base64 string to backend.  
+2. **Backend**:
+   - Extracts landmarks via Mediapipe.  
+   - Builds hybrid vector → passes to model.  
+   - Gets predicted pose.  
+   - Passes structured landmarks + pose to feedback function.  
+   - Returns **voice-friendly response** (intro or correction).  
+3. **Frontend** plays the feedback as audio to guide the user.  
+
+---
+
+## 📌 Future Roadmap
+
+- Add more poses (Padmasana, Vajrasana, Bhujangasana, etc.).  
+- Improve robustness on low-light / low-resolution images with **data augmentation**.  
+- Add personalized yoga plans based on health status.  
+- Expand live class scheduling with teacher interaction.  
+
+---
+
+
+
+
+

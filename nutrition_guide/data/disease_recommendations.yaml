@@ -1,0 +1,170 @@
+diabetes:
+  general_advice: "Focus on low glycemic index foods, control carbohydrate intake, and maintain regular meal timing. Choose complex carbohydrates over simple sugars."
+  recommended_foods:
+    - "Non-starchy vegetables (leafy greens, broccoli, bell peppers)"
+    - "Lean proteins (chicken, fish, tofu)"
+    - "Healthy fats (avocado, nuts, olive oil)"
+    - "Low-glycemic fruits (berries, apples, pears)"
+    - "Whole grains in moderation (quinoa, brown rice, oats)"
+    - "Legumes (lentils, chickpeas, beans)"
+  avoid_foods:
+    - "White Rice"
+    - "White Bread"
+    - "Soda"
+    - "Candy"
+    - "Honey"
+    - "Maple Syrup"
+    - "Fruit Juice"
+    - "Banana"
+
+hypertension:
+  general_advice: "Follow a DASH (Dietary Approaches to Stop Hypertension) diet that's low in sodium and rich in potassium, calcium, and magnesium."
+  recommended_foods:
+    - "Leafy greens (spinach, kale)"
+    - "Fruits (bananas, oranges, berries)"
+    - "Whole grains (oats, brown rice)"
+    - "Low-fat dairy products"
+    - "Nuts and seeds"
+    - "Legumes"
+    - "Fatty fish (salmon, mackerel)"
+  avoid_foods:
+    - "Processed foods"
+    - "Canned soups"
+    - "Deli meats"
+    - "Cheese"
+    - "Pickled foods"
+    - "Fast food"
+    - "Salty snacks"
+
+high_cholesterol:
+  general_advice: "Emphasize soluble fiber, healthy fats, and limit saturated and trans fats. Include plant sterols and stanols where possible."
+  recommended_foods:
+    - "Oats and barley"
+    - "Beans and legumes"
+    - "Fatty fish (salmon, mackerel, sardines)"
+    - "Nuts and seeds"
+    - "Fruits (apples, citrus, berries)"
+    - "Olive oil"
+    - "Plant sterol-enriched foods"
+  avoid_foods:
+    - "Butter"
+    - "Red meat"
+    - "Full-fat dairy"
+    - "Eggs"
+    - "Cheese"
+    - "Fried foods"
+    - "Processed meats"
+
+obesity:
+  general_advice: "Focus on nutrient-dense, low-calorie foods. Increase protein and fiber intake while reducing processed foods and added sugars."
+  recommended_foods:
+    - "Non-starchy vegetables (all types)"
+    - "Lean proteins (chicken breast, fish, egg whites, tofu)"
+    - "Low-sugar fruits (berries, apples)"
+    - "High-fiber foods (beans, lentils, whole grains)"
+    - "Water and unsweetened beverages"
+  avoid_foods:
+    - "Processed foods"
+    - "Sugary beverages"
+    - "Fast food"
+    - "Desserts and sweets"
+    - "Refined grains"
+    - "Alcohol"
+
+hypothyroidism:
+  general_advice: "Consider limiting goitrogenic foods that may interfere with thyroid function when eaten raw in large amounts. Focus on selenium and zinc-rich foods."
+  recommended_foods:
+    - "Seafood (rich in iodine and selenium)"
+    - "Eggs"
+    - "Nuts (especially Brazil nuts)"
+    - "Whole grains"
+    - "Lean proteins"
+    - "Fruits and vegetables"
+  avoid_foods:
+    - "Raw cruciferous vegetables in large amounts (broccoli, cauliflower, kale)"
+    - "Soy products in large amounts"
+    - "Processed foods with high sodium"
+    - "Gluten (for those with autoimmune thyroiditis)"
+
+fatty_liver:
+  general_advice: "Focus on a diet low in added sugars, refined carbohydrates, and saturated fats. Emphasize plant-based eating."
+  recommended_foods:
+    - "Fruits and vegetables"
+    - "High-fiber foods"
+    - "Whole grains"
+    - "Lean proteins (fish, chicken, legumes)"
+    - "Healthy fats (olive oil, avocados, nuts)"
+    - "Coffee (in moderation)"
+    - "Green tea"
+  avoid_foods:
+    - "Alcohol"
+    - "Added sugars"
+    - "Refined carbohydrates"
+    - "Red meat"
+    - "Processed foods"
+    - "Fried foods"
+
+ibs:
+  general_advice: "Identify trigger foods and follow a low-FODMAP diet if recommended by your healthcare provider. Stay well-hydrated and eat regular meals."
+  recommended_foods:
+    - "Soluble fiber foods (oats, rice, potatoes)"
+    - "Lean proteins"
+    - "Low-FODMAP fruits and vegetables"
+    - "Lactose-free dairy (if tolerated)"
+    - "Gluten-free grains (if sensitive)"
+  avoid_foods:
+    - "High-FODMAP foods"
+    - "Caffeine"
+    - "Alcohol"
+    - "Spicy foods"
+    - "Fatty foods"
+    - "Artificial sweeteners"
+
+anemia:
+  general_advice: "Focus on iron-rich foods paired with vitamin C for better absorption. Include vitamin B12 and folate sources."
+  recommended_foods:
+    - "Lean red meat"
+    - "Poultry dark meat"
+    - "Fish"
+    - "Beans and lentils"
+    - "Spinach and other leafy greens"
+    - "Iron-fortified foods"
+    - "Vitamin C sources (citrus, bell peppers)"
+    - "Vitamin B12 sources (meat, dairy, fortified foods)"
+  avoid_foods:
+    - "Coffee and tea with meals (reduces iron absorption)"
+    - "Calcium supplements with iron-rich meals"
+    - "Raw milk products"
+
+gout:
+  general_advice: "Limit high-purine foods, stay well-hydrated, and maintain a healthy weight. Moderate protein intake and favor plant proteins."
+  recommended_foods:
+    - "Low-fat dairy products"
+    - "Plant proteins (beans, lentils)"
+    - "Whole grains"
+    - "Fruits (especially cherries)"
+    - "Vegetables"
+    - "Coffee (may help reduce risk)"
+    - "Water"
+  avoid_foods:
+    - "Organ meats"
+    - "Shellfish"
+    - "Red meat"
+    - "High-fructose corn syrup"
+    - "Alcohol (especially beer)"
+    - "Sweetened beverages"
+
+kidney_disease:
+  general_advice: "Dietary needs vary greatly based on stage of kidney disease. Generally, monitor intake of sodium, potassium, phosphorus, and protein as recommended by your healthcare provider."
+  recommended_foods:
+    - "Low-sodium foods"
+    - "Low-potassium fruits and vegetables (as advised)"
+    - "Lower-phosphorus foods"
+    - "Appropriate protein sources (amount depends on condition)"
+    - "Heart-healthy foods"
+  avoid_foods:
+    - "High-sodium processed foods"
+    - "High-potassium foods (if advised)"
+    - "High-phosphorus foods (if advised)"
+    - "Protein in excess of recommendations"
+    - "Alcohol"

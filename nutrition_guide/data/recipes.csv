@@ -1,0 +1,45 @@
+recipe_name,meal_type,prep_time,calories_per_serving,protein_per_serving,carbs_per_serving,fats_per_serving,fiber_per_serving,ingredients,calorie_level,suitable_for_diabetes,suitable_for_hypertension,suitable_for_high_cholesterol
+Greek Yogurt Parfait,breakfast,10,320,20,40,10,6,"Greek yogurt, berries, honey, granola, chia seeds",medium,yes,yes,yes
+Veggie Omelette,breakfast,15,350,24,8,24,3,"Eggs, spinach, tomatoes, bell peppers, onion, cheese",medium,yes,yes,no
+Overnight Oats,breakfast,10,350,15,50,10,8,"Oats, almond milk, chia seeds, banana, berries, honey",medium,yes,yes,yes
+Salmon Avocado Toast,breakfast,15,420,25,30,22,6,"Whole grain bread, smoked salmon, avocado, lemon juice, red onion",medium,yes,yes,yes
+Protein Pancakes,breakfast,20,400,25,45,12,4,"Oats, banana, egg whites, protein powder, cinnamon, berries",medium,yes,yes,yes
+Chicken Quinoa Bowl,lunch,25,450,35,45,15,8,"Chicken breast, quinoa, mixed vegetables, olive oil, lemon juice, herbs",medium,yes,yes,yes
+Mediterranean Salad,lunch,15,380,15,25,25,7,"Mixed greens, cherry tomatoes, cucumber, feta cheese, olives, chickpeas, olive oil, lemon dressing",medium,yes,yes,yes
+Lentil Soup,lunch,30,320,18,40,8,12,"Lentils, carrots, celery, onion, garlic, tomatoes, vegetable broth, spices",low,yes,yes,yes
+Turkey Wrap,lunch,10,400,30,40,12,6,"Whole grain wrap, turkey breast, avocado, lettuce, tomato, mustard",medium,yes,yes,yes
+Tofu Stir Fry,lunch,20,350,20,30,18,8,"Tofu, broccoli, bell peppers, carrots, snap peas, brown rice, ginger, garlic, soy sauce",low,yes,no,yes
+Salmon with Roasted Vegetables,dinner,30,420,35,20,22,6,"Salmon fillet, asparagus, bell peppers, zucchini, olive oil, lemon, herbs",medium,yes,yes,yes
+Turkey Meatballs with Zoodles,dinner,35,380,35,15,20,5,"Ground turkey, eggs, almond flour, zucchini, tomato sauce, Italian herbs",low,yes,yes,yes
+Baked Chicken with Sweet Potato,dinner,40,450,40,35,15,6,"Chicken breast, sweet potato, broccoli, olive oil, herbs",medium,yes,yes,yes
+Black Bean Tacos,dinner,25,400,15,50,15,12,"Black beans, corn tortillas, avocado, lettuce, tomato, onion, lime juice, spices",medium,yes,no,yes
+Shrimp and Vegetable Stir Fry,dinner,20,350,30,25,12,6,"Shrimp, broccoli, bell peppers, snap peas, carrots, garlic, ginger, low-sodium soy sauce",low,yes,no,yes
+Protein Smoothie,snack,5,280,25,30,8,5,"Protein powder, banana, berries, spinach, almond milk, chia seeds",low,yes,yes,yes
+Cottage Cheese with Fruits,snack,5,200,20,15,5,3,"Cottage cheese, berries, apple, cinnamon",low,yes,yes,yes
+Hummus with Vegetables,snack,5,180,8,20,8,5,"Hummus, carrots, cucumber, bell peppers, celery",low,yes,yes,yes
+Trail Mix,snack,5,250,8,20,16,4,"Almonds, walnuts, cashews, dried cranberries, dark chocolate chips",high,no,no,no
+Hard Boiled Eggs with Avocado,snack,10,220,14,5,16,3,"Eggs, avocado, salt, pepper",medium,yes,yes,no
+Vegetarian Chili,dinner,45,350,20,45,10,15,"Kidney beans, black beans, tomatoes, bell peppers, onion, garlic, chili powder, cumin",medium,yes,yes,yes
+Grilled Tempeh Bowl,lunch,25,420,25,40,18,10,"Tempeh, brown rice, roasted vegetables, tahini dressing",medium,yes,yes,yes
+Spinach and Feta Stuffed Chicken,dinner,40,450,45,10,22,3,"Chicken breast, spinach, feta cheese, garlic, olive oil",medium,yes,no,no
+Quinoa Stuffed Bell Peppers,dinner,45,380,15,45,15,8,"Bell peppers, quinoa, black beans, corn, tomatoes, onion, cheese, spices",medium,yes,yes,yes
+Soya Chunks Curry with Brown Rice,lunch,30,420,30,50,10,8,"Soya chunks, onion, tomatoes, spices, brown rice, coriander",medium,yes,yes,yes
+Chickpea Spinach Curry,dinner,25,350,18,40,12,10,"Chickpeas, spinach, tomatoes, onion, garlic, ginger, spices, coconut milk",medium,yes,yes,yes
+Baked Cod with Lemon Herb Sauce,dinner,25,300,35,5,15,1,"Cod fillets, lemon, garlic, parsley, olive oil, capers",low,yes,yes,yes
+Mushroom and Spinach Frittata,breakfast,20,320,22,10,20,3,"Eggs, mushrooms, spinach, onion, garlic, feta cheese",medium,yes,yes,no
+Chickpea Avocado Sandwich,lunch,15,400,15,45,18,10,"Whole grain bread, mashed chickpeas, avocado, lettuce, tomato, red onion",medium,yes,yes,yes
+Tuna Salad Lettuce Wraps,lunch,15,280,35,8,12,3,"Tuna, Greek yogurt, celery, red onion, lettuce leaves, lemon juice",low,yes,yes,yes
+Berry Protein Muffins,breakfast,30,220,15,25,8,5,"Oat flour, protein powder, eggs, berries, banana, cinnamon",low,yes,yes,yes
+Lentil and Vegetable Curry,dinner,35,350,18,45,10,12,"Lentils, mixed vegetables, tomatoes, onion, garlic, ginger, curry spices, coconut milk",medium,yes,yes,yes
+Cauliflower Fried Rice,dinner,25,300,20,25,15,6,"Cauliflower rice, eggs, peas, carrots, onion, garlic, ginger, soy sauce",low,yes,no,yes
+Grilled Chicken Caesar Salad,lunch,20,380,40,10,20,3,"Chicken breast, romaine lettuce, cherry tomatoes, parmesan cheese, olive oil lemon dressing",medium,yes,yes,no
+Turkey and Vegetable Soup,lunch,40,280,25,25,8,5,"Turkey breast, carrots, celery, onion, garlic, zucchini, tomatoes, herbs, broth",low,yes,yes,yes
+Spicy Tofu Tacos,dinner,25,350,20,40,12,8,"Tofu, corn tortillas, cabbage slaw, avocado, lime, spices",medium,yes,no,yes
+Banana Peanut Butter Overnight Oats,breakfast,10,380,18,50,12,8,"Oats, banana, peanut butter, chia seeds, almond milk, cinnamon",medium,no,yes,yes
+Soya Milk Smoothie Bowl,breakfast,10,300,20,40,8,6,"Soya milk, protein powder, frozen berries, banana, granola, chia seeds",medium,yes,yes,yes
+Kale and White Bean Soup,lunch,30,280,16,35,8,10,"Kale, white beans, carrots, celery, onion, garlic, herbs, vegetable broth",low,yes,yes,yes
+Grilled Steak with Roasted Vegetables,dinner,30,450,40,15,25,4,"Lean steak, bell peppers, zucchini, onion, olive oil, herbs",high,yes,yes,no
+Egg White Vegetable Muffins,breakfast,25,180,20,8,8,3,"Egg whites, spinach, bell peppers, onion, tomatoes, feta cheese",low,yes,yes,yes
+Sardine Toast with Avocado,breakfast,10,320,20,20,18,5,"Whole grain bread, sardines, avocado, lemon juice, microgreens",medium,yes,yes,yes
+Sesame Salmon with Broccoli,dinner,25,420,35,15,25,6,"Salmon fillet, broccoli, sesame seeds, garlic, ginger, soy sauce, honey",medium,yes,no,yes
+Vegetable and Lentil Patties,lunch,35,350,15,40,15,12,"Lentils, carrots, zucchini, oats, onion, garlic, spices",
